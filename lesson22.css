@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+max-width: 1920px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.top-menu{
+display: inline-block;
+background-color;
+display: flex;
+font-family: Montserrat;
+width: 100%;
+padding-left: 100px;
+}
+.header{
+display: inline-block;
+width: 100%;
+}
+.language{
+font-weight: 400;
+}
+.maistra-online1{
+background-color:gainsboro;
+width: 180px;
+height: 55px;
+text-align: center;
+font-weight: 600;
+margin-top: 15px;
+}
+.maistra-online2{
+display:flex;
+justify-content: center;
+align-items: center;
+width: 60px;
+height: 55px;
+background-color: rgb(182, 52, 52);
+margin-top: 15px;
+margin-right: 20px;
+}
+.tours-online1{
+background-color:gainsboro;
+width: 180px;
+height: 55px;
+text-align: center;
+font-weight: 600;
+margin-top: 15px;
+}
+.tours-online2{
+display:flex;
+justify-content: center;
+align-items: center;
+width: 60px;
+height: 55px;
+background-color: rgb(55, 233, 194);   
+margin-top: 15px; 
+}
+.middle{
+height: 50px;
+width: 1px;
+background-color: gray;
+margin: 20px;
+}
+.long-line{
+height: 1px;
+width: 100%;
+background-color: gray;
+}
