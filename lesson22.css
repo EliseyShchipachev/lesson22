@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 .container{
-max-width: 1920px;
+max-width: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
 }
 .top-menu{
-display: inline-block;
+
 background-color;
 display: flex;
 font-family: Montserrat;
@@ -18,7 +18,6 @@ width: 100%;
 padding-left: 100px;
 }
 .header{
-display: inline-block;
 width: 100%;
 }
 .language{
@@ -70,3 +69,24 @@ height: 1px;
 width: 100%;
 background-color: gray;
 }
+.menu{
+font-family: Montserrat;
+font-weight: 600;
+display: flex;
+justify-content: space-around;
+padding-top: 20px;
+}
+.content{
+background-size: cover;
+background: center center no-repeat;
+
+}
+.foto
+    {max-width: 100%;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 14.37%, rgba(0, 0, 0, 0.8) 100%),url("C:\Users\User37\Desktop\K.fund\shipachov\fon.img"), center center no-repeat;
+    background-size: cover;
+    z-index: 1;
+    display: flex;
+    flex-direction: none;}
